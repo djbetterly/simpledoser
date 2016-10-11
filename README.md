@@ -29,3 +29,7 @@ Variable Example
 ```bash
 particle get <photonName> getRelay1
 ```
+Function Example
+```bash
+particle call <photonName> manual 1,on
+```
