@@ -9,7 +9,6 @@ Firmware supports up to 6 Pumps with scheduling for 12 and 24hr periods, calibra
 
 ##CLI Commands
 
-'''bash
   Variables:
     getRelay1 (string)
     getRelay2 (string)
@@ -25,4 +24,3 @@ Firmware supports up to 6 Pumps with scheduling for 12 and 24hr periods, calibra
     int setDoseRate(String args) 
     int manual(String args) 
     int setTimeZone(String args)
-'''
