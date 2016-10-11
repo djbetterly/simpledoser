@@ -25,3 +25,7 @@ Firmware supports up to 6 Pumps with scheduling for 12 and 24hr periods, calibra
     int manual(String args) 
     int setTimeZone(String args)
 ```
+Variable Example
+```bash
+particle get <photonName> getRelay1
+```
