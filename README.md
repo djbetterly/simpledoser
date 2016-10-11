@@ -38,10 +38,15 @@ Calibration Function - args = pump#
 particle call <photonName> calibrate 
 ```
 SetupChannel - args = channel#,startTime,dosingPeriod,numberOfDoses,dose
+
   -startTime is time of day in seconds (Ex: 14:30:00 = 52200)
+  
   -dosingPeriod determines if the program runs over a 12hr or 24hr period
+  
   -numberOfDoses is how many doses will take place over the dosingPeriod
+  
   -dose is the total amount that will be dosed during the dosingPeriod
+  
 The example below would tell pump 1 to start dosing 200mL at 14:30:00, 12 times over a 12hr period.
 ```bash
 particle call <photonName> setupChannel 1,52200,12,12,200
