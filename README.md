@@ -29,15 +29,15 @@ Calibration automatically runs for 60 seconds for each pump.
 ```bash
 particle get <photonName> getRelay1
 ```
-Manual Function - args = pump#, on, off
+####Manual Function - args = pump#, on, off
 ```bash
 particle call <photonName> manual 1,on
 ```
-Calibration Function - args = pump#
+####Calibration Function - args = pump#
 ```bash
 particle call <photonName> calibrate 
 ```
-SetupChannel - args = channel#,startTime,dosingPeriod,numberOfDoses,dose
+####SetupChannel - args = channel#,startTime,dosingPeriod,numberOfDoses,dose
 
   -startTime is time of day in seconds (Ex: 14:30:00 = 52200)
   
