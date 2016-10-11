@@ -29,7 +29,8 @@ Calibration automatically runs for 60 seconds for each pump.
 ```bash
 particle get <photonName> getRelay1
 ```
-####Manual Function - args = pump#, on, off
+####Manual Function
+⋅⋅⋅args = pump#, on, off
 ```bash
 particle call <photonName> manual 1,on
 ```
