@@ -25,7 +25,7 @@ Calibration automatically runs for 60 seconds for each pump.
     int manual(String args) 
     int setTimeZone(String args)
 ```
-Variable Example
+#####Variable Example
 ```bash
 particle get <photonName> getRelay1
 ```
