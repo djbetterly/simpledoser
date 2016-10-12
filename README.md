@@ -54,4 +54,9 @@ The example below would tell pump 1 to start dosing 200mL at 14:30:00, 12 times 
 ```bash
 particle call <photonName> setupChannel 1,52200,12,12,200
 ```
+####SetDoseRate
+  * arg = pump#,value (ie 13.2)
+```bash
+particle call <photonName> setDoseRate 1,13.2
+```
 
