@@ -8,7 +8,7 @@ Controlled through http://www.simpledoser.com - Free for users of this project
 Firmware Details: 
   * Control up to 6 Pumps
   * Scheduling options for 12 and 24hr periods
-  * Calibration Function (Calibration automatically runs for 60 seconds for each pump)
+  * Calibration Function (Calibration automatically runs each pump for 60 seconds)
   * Manual ON/OFF
   * Logging
 
