@@ -1,7 +1,7 @@
 # Simple Doser
 Web Controlled Peristaltic Doser for Aquariums
 
-Powered by Particle Photon
+[Powered by Particle Photon](http://www.particle.io)
 
 Controlled through http://www.simpledoser.com - Free for users of this project
 
